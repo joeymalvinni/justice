@@ -1,5 +1,5 @@
 {
-  "name": "justice",
+  "name": "justice-proxy",
   "version": "1.0.0",
   "description": "A blazing-fast forward proxy designed to bypass internet censorship methods",
   "main": "index.js",
