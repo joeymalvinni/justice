@@ -1,10 +1,19 @@
 const EventEmitter = require('node:events');
+    
+/**
+ * @typedef Options
+ * @property {Number} ttl - Time to live of each cached object 
+*/
 
 /**
  * Class which implements a web Cache.
  * @extends EventEmitter
  */
 class Cache extends EventEmitter {
+    /**
+     * 
+     * @param {Options} options 
+     */
     constructor(options = {}) {
         super();
 
